@@ -87,8 +87,33 @@
     font-size: 28px;
     text-decoration: none;
   }
+  .btn-link-generic{
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white !important;
+  }
   
   .email-link:hover {
     text-decoration: underline;
   }
+  @media(max-width: 576px){
+    h1{
+      font-size: 48px !important;
+      line-height: 1.5;
+    }
+    .btn-ajusted{
+      display: block;
+      text-align: center;
+      margin: 0 20px;
+    }
+    h2, p{
+      text-align: center;
+    }
+  }
+ 
+
   
